@@ -7,8 +7,17 @@
 #                     (nav)         (5)              (1)      (1)
 # 예) 생성된 비밀번호 : nav51!
 
-my_url = "http://naver.com"
-url = my_url.replace("http://","")
-url= url[:url.index(".")]
-psw = url[:3] + str(len(url)) + str(url.count("e")) + "!"
-print ("생성된 {0}의 비밀번호는 {1} 입니다. ".format(my_url,psw))
+url = "http://naver.com"
+url = "http://google.com"
+url = "http://youtube.com"
+
+my_str = url.replace("http://","") # 규칙1
+print(my_str)
+my_str = my_str[:my_str.index(".")] # 규칙2
+print(my_str)
+password = my_str[:3] + str(len(my_str)) + str(my_str.count("e")) + "!"
+print(password)
+print("{0}의 비밀번호는 {1}입니다.".format(url,password))
+
+subway = [10,20,30]
+print(subway)

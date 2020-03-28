@@ -1,15 +1,21 @@
-python = "Python is Amazing"
-# print (python.lower())
-# print (python.upper())
-# print (python[0].isupper())
-# print (len(python))
-# print (python.replace("Python", "Java"))
+ 
 
-# print (python.index("n"))
+Python = "Python is Amazing!"
+print(Python.lower())
+print(Python.upper())
+print(Python[0].isupper())
+print(len(Python))
+print (Python.replace("Python", "Java")) 
 
-# indexn = python.index("n", indexn + 1)
-# print (index)
-print (python.find("Python"))
-print (python.find("python"))
-print (python.find("Java"))
-print (python.count("n"))
+index = Python.index("n")
+print(index)
+index = Python.index("n",index+1)
+print(index)
+
+print(Python.find("Java"))
+#print(Python.index("Java"))
+print("hi")
+
+print(Python.count("n"))
+
+print("나는 %살 입니다." % 20)

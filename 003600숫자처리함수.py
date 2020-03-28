@@ -1,11 +1,11 @@
-# print (abs(-5))
-# print (pow(4,2))
-# print (max(5,12))
-# print (min(5,12))
-print (round(3.49))
-print (round(3.50))
+# print (abs(-5)) # 5
+# print (pow(4,2)) # 4^2 4 * 4
+# print (max(5,12)) # 12
+# print (min(5,12)) # 5
+# print (round(3.49)) # 3
+# print (round(3.50)) # 4
 
 from math import *
-print (floor(5.99))
-print (ceil(7.14))
-print (sqrt(256))
+print(floor(4.99)) # 내림 4
+print(ceil(3.14)) # 올림 4
+print(sqrt(16)) # 제곱근 4
