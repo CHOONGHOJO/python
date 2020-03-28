@@ -15,11 +15,11 @@ README 파일의 목적은 그 프로젝트를 처음 보는 사람이 프로젝
 이를 위한 최소한의 정보가 작성되어있어야 한다.
 
 What & Why
-프로젝트 제목
-프로젝트 설명
+프로젝트 제목 : python study
+프로젝트 설명 : python lebel up to soding AI by myself.
 How
-작동 전, 준비 사항
-작동 방법
+작동 전, 준비 사항 : which one(lecture) is best one for studying and going forward to AI coding
+작동 방법 : start with 6 hours with python by ....
 각 Section은 짧고, 명료하게, 꼭 필요한 내용만 작성한다. 그리고 다른 사람을 위한 작업임을 명심한다. 
  
 
