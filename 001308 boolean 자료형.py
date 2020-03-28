@@ -1,5 +1,0 @@
-print (5 > 1)
-print ( 1 > 5)
-print (True)
-print ( not True)
-print ( not 1 > 5)
